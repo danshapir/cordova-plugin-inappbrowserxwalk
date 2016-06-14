@@ -187,7 +187,8 @@ public class InAppBrowserXwalk extends CordovaPlugin {
             public void run() {
                 try {
                     if(dialog != null) {
-                    dialog.show();
+                        dialog.show();
+                    }
                 }
                 finally{
                     
