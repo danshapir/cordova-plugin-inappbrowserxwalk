@@ -171,14 +171,15 @@ public class InAppBrowserXwalk extends CordovaPlugin {
     }
 
     public void hideBrowser() {
-        this.cordova.getActivity().runOnUiThread(new Runnable() {
+        closeBrowser();
+        /*this.cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 if(dialog != null) {
                     dialog.dismiss();
                 }
             }
-        });
+        });*/
     }
 
     public void showBrowser() {
