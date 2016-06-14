@@ -175,7 +175,7 @@ public class InAppBrowserXwalk extends CordovaPlugin {
             @Override
             public void run() {
                 if(dialog != null) {
-                    dialog.hide();
+                    dialog.dismiss();
                 }
             }
         });
