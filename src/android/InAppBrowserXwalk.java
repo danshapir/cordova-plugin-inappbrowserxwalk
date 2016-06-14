@@ -210,7 +210,7 @@ public class InAppBrowserXwalk extends CordovaPlugin {
                     result.setKeepCallback(true);
                     callbackContext.sendPluginResult(result);
                 } catch (JSONException ex) {}
-            }
+            } 
         });
     }
 }
