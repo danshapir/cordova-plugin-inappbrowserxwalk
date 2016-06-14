@@ -163,7 +163,7 @@ public class InAppBrowserXwalk extends CordovaPlugin {
                 dialog.setCancelable(true);
                 LayoutParams layoutParams = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
                 dialog.addContentView(main, layoutParams);
-                if(!openHidden) {
+                if(dialog != null) {
                     dialog.show();
                 }
             }
